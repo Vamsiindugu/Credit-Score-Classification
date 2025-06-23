@@ -1,0 +1,39 @@
+Dataset Overview
+The project utilizes a comprehensive dataset (dataset-2.csv) to classify customer credit scores.
+
+Key characteristics of the dataset include:
+
+Dimensions: It comprises 100,000 rows and 28 columns.
+Data Types: The columns consist of int64, float64, and object (representing categorical or text data). The object type columns require encoding for use in machine learning models.
+Target Variable: The Credit_Score column, an object type, serves as the target variable with categories 'Good', 'Standard', and 'Poor', indicating a classification problem.
+Missing Values: Several columns, such as Num_of_delayed_payment, Num_Credit_Inquiries, Credit_Mix, and Amount_invested_monthly, contain significant missing values. Type_of_Loan notably has a high count of null entries.
+Unique Identifier: Customer_ID is a unique identifier and is excluded before modeling.
+Data Quality: No duplicate rows were identified, though some columns might contain placeholder or extraneous values.
+
+Variable Description:
+
+Customer_ID             - Unique identifier for each customer.
+Month                   - Month of the data record.
+Age                     - Age of the customer in years.
+Occupation              - The customer's profession.
+Annual_Income           - The total annual income of the customer.
+Monthly_Inhand_Salary   - The customer's net monthly salary.
+Num_Bank_Accounts       - The number of bank accounts the customer holds.
+Num_Credit_Card         - The number of credit cards the customer possesses.
+Interest_Rate           - The average interest rate on the customer's credit products.
+Num_of_Loan             - The number of loans the customer has.
+Type_of_Loan            - The types of loans the customer has taken. (e.g., Personal, Home)
+Delay_from_due_date     - The average number of days a payment is delayed past its due date.
+Num_of_delayed_payment  - The total number of payments the customer has delayed.
+Changed_Credit_Limit    - The percentage change in the customer's credit limit.
+Num_Credit_Inquiries    - The number of credit inquiries made by the customer.
+Credit_Mix              - The mix of credit products (e.g., Good, Standard, Bad).
+Outstanding_Debt        - The total amount of outstanding debt.
+Credit_Utilization_Ratio- The ratio of credit used to the total available credit.
+Credit_History_Age      - The age of the customer's credit history.
+Payment_of_Min_Amount   - Indicates if the customer pays the minimum amount due.
+Total_EMI_per_month     - The total Equated Monthly Installment (EMI) paid by the customer.
+Amount_invested_monthly - The amount the customer invests monthly.
+Payment_Behaviour       - Categorization of the customer's payment behavior.
+Monthly_Balance         - The average monthly balance in the customer's account.
+Credit_Score            - The customer's credit score category (**Target Variable**).
