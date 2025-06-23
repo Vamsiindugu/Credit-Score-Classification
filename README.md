@@ -1,5 +1,5 @@
 
-# Paisa Bazaar Credit Score Classification
+# Credit Score Classification
 
 ## Description
 
